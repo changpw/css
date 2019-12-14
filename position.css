@@ -1,0 +1,17 @@
+#content{
+background-color: aqua;	
+width: 20rem;
+height: 20rem;
+}
+.part1{
+	width: 50%;
+	height: 50%;
+	transition: width 2s, height 2s,border-radius 2s, transform 2s;
+	background-color: aquamarine;
+}
+.part1:hover{
+	width: 25%;
+	height: 25%;
+	border: #00FFFF 0.0625rem solid;
+	border-radius: 50%;
+}
