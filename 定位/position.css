@@ -1,0 +1,31 @@
+body{
+	float: left;
+	background-color: #008B8B;
+}
+.part1{
+	width: 10rem;
+	height: 10rem;
+	background-color: #00FFFF;
+	float: left;
+}
+.part2{
+	width: 10rem;
+	height: 10rem;
+	background-color: #fff;
+	float: left;
+}
+.part3{
+	width: 10rem;
+	height: 10rem;
+	background-color: #DEB887;
+	float: left;
+}
+div:first-child{
+	width: 100%;
+}
+div:first-letter{
+	font-size: 1.25rem;
+}
+div:before{
+	content:"YES";
+}
