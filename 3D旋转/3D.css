@@ -1,0 +1,32 @@
+body{
+	display: flex;
+	width: 40rem;
+	height: 40rem;
+	position: relative;
+	top: 20rem;
+	background-color: #008B8B;
+	-webkit-perspective: 500;
+}
+img{
+	width: 20rem;
+	height: 20rem;
+	transition: all 1s; 
+	order: 1;
+}
+.part1{
+	line-height: 3rem;
+	width: 20rem;
+	height: 20rem;
+	order: -1;
+	transition: all 1s; 
+	transform: rotateY(90deg);
+	transform-origin: right;
+}
+body:hover .part1{
+	transform: rotateY(0deg);
+	transform: translateX(20rem);
+	transform-origin: right;
+}
+body:hover img{
+	transform: translateX(20rem);
+}
