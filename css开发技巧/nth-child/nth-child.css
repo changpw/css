@@ -1,0 +1,43 @@
+.content{
+	border: black 1px solid;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 60%;
+	height: 100%;
+	margin: 10rem auto;
+}
+#content .list:nth-child(odd){
+	background-color: #008B8B;
+}
+.list{
+	width: 100%;
+	height: 2rem;
+	background-color: #00FFFF;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+body{
+	width: 100%;
+	height: 20rem;
+}
+#list1 div{
+	width: 30%;
+}
+#list2 div{
+	width: 30%;
+}
+#list3 div{
+	width: 30%;
+}
+#list4 div{
+	width: 30%;
+}
+.list:hover{
+	background-color: #DEB887;
+}
+#content .list:nth-child(odd):hover{
+	background-color: #DEB887;
+}
+ 

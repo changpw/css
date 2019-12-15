@@ -1,0 +1,16 @@
+.part1{
+	height: 10rem;
+	background-color: #00FFFF;
+	width: 10rem;
+	overflow:auto;
+}
+.part1::-webkit-scrollbar-thumb{
+	background-color: #BDB76B;
+	width: 0.125rem;
+}
+.part1::-webkit-scrollbar-track {
+		background-color: #f0f0f0;
+	}
+.part1::-webkit-scrollbar {
+		width: 2px;
+	}
