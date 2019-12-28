@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<script>
+		//UrlEncode函数
+		function UrlEncode (str) {  
+		    str = (str + '').toString();   
+			console.log(encodeURIComponent(str))
+		    return encodeURIComponent(str).replace(/!/g, '%21').replace(/'/g, '%27').replace(/\(/	, '%28'). 
+			 
+		    replace(/\)/g, '%29').replace(/\*/g, '%2A').replace(/%20/g, '+');  
+		}
+		var encode= UrlEncode('https://qwertyuioplkjhgfdsazxcvbnm/mkrecny/urlencode-js')
+		console.log(encode)
+		document.write(encode)
+	</script>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		
+	</head>
+	<body>
+	</body>
+</html>
